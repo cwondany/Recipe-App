@@ -1,4 +1,6 @@
 import { Directive, HostBinding, HostListener } from '@angular/core';
+import { objectLiteralExpression } from 'codelyzer/util/astQuery';
+import { a } from '@angular/core/src/render3';
 
 @Directive({
   selector: '[appDropdown]'
